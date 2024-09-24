@@ -11,8 +11,8 @@ int secondnum = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("The sum of the numbers is " + (firstnum + secondnum));
 
-
-Console.WriteLine("Please enter your name");
+// Section 1
+Console.WriteLine("Please enter your name");    
 string name  = Console.ReadLine();
 
 Console.WriteLine("Please enter your age");
@@ -27,7 +27,7 @@ if(age < 1 ||  age > 110)
 int futureAge = age + 5;
 
 Console.WriteLine("hello " + name + " you will be "+ futureAge+" in five years");
-
+// Section 2
 if(age < 13)
 {
     Console.WriteLine("You are a child");
@@ -40,7 +40,7 @@ else if (age >= 20)
 {
     Console.WriteLine("You are an adult");
 }
-
+//Section 3
 Console.WriteLine("Please enter number");
 int number= Convert.ToInt32(Console.ReadLine());
 
@@ -57,7 +57,7 @@ else
 {
     Console.WriteLine(number+" is negative");
 }
-
+//Section 4
 Console.WriteLine("Please enter year");
 int year =Convert.ToInt32(Console.ReadLine());
 
@@ -69,7 +69,7 @@ else
 {
     Console.WriteLine("The year " + year + " is not a leap year");
 }
-
+//section 5
 Console.WriteLine("Please enter number");
 int oddOrEven=Convert.ToInt32(Console.ReadLine());
 
